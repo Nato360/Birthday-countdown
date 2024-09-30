@@ -1,0 +1,130 @@
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: ;
+    padding-bottom: ;
+    margin-bottom: ;
+    background-image: url('https://plus.unsplash.com/premium_photo-1663839412099-8fe226462e8c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #1e3d58;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 100px 0 50px 0;
+}
+#countdown {
+    font-size: 2rem;
+    color: #f37324;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}   */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-image: url('https://plus.unsplash.com/premium_photo-1663839412099-8fe226462e8c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+h1 {
+    font-size: 2.5em;
+    color: #1e3d58;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+#countdown {
+    font-size: 3em;
+    color: #ff5733;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.img{
+    width: 35%;
+    margin-top: 90px;
+    margin-left: 150px;
+
+    .icon{
+        width: 60%;
+        border-radius: 100%;
+    }
+}
+
+/* Mobile responsive styles */
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    #countdown {
+        font-size: 2em;
+    }
+
+    .img{
+        width: 35%;
+        margin-top: 90px;
+        margin-left: 150px;
+    
+        .icon{
+            width: 60%;
+            border-radius: 100%;
+        }
+    }
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    #countdown {
+        font-size: 1.5em;
+    }
+
+    .img{
+        width: 35%;
+        margin-top: 90px;
+        margin-left: 170px;
+    
+        .icon{
+            width: 60%;
+            border-radius: 100%;
+        }
+    }
+}
+
+/* Very small devices (less than 400px) */
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #countdown {
+        font-size: 1.2em;
+    }
+
+    .img{
+        width: 35%;
+        margin-top: 90px;
+        margin-left: 170px;
+    
+        .icon{
+            width: 30%;
+            border-radius: 100%;
+        }
+    }
+}
+
